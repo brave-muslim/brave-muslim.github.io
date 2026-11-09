@@ -1,12 +1,12 @@
 body {
-    background: white;
+    background: rgb(0 0 0 / 88%);
     margin: 0;
 }
 .Top {
-    background: rgb(0 0 0 / 88%);
     display: flex;
     justify-content: space-between;
     padding: 0 0 5px 0;
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
 }
 .Right {
     display: flex;
@@ -37,4 +37,71 @@ body {
 }
 .Left img {
     width: 30px;
+}
+.About {
+    background: rgb(0 0 0 / 40%);
+    margin: 2% 13% 2%;
+    border-radius: 20px;
+    padding: 4% 4% 1%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 64%;
+}
+.Right2 img {
+    width: 93%;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 12px solid #00ff0010;
+}
+.Feture, .Android {
+    color: #00ff0070;
+    font-weight: 600;
+    font-size: 30px;
+}
+.Feture2 {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 94%;
+    max-width: 425px;
+    background: #252525;
+    border: 1px solid #293d20;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.Android-Download {
+    text-align: center;
+}
+.Download {
+    background: rgb(0 0 0 / 40%);
+    width: 20%;
+    margin: 20px 26%;
+    display: flex;
+    gap: 30px;
+    padding: 24px 16%;
+    border-radius: 14px;
+}
+.Download img {
+    width: 40px;
+}
+.PCAPdroid, .PCAPdroid-Mitm {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    gap: 6px;
+}
+.PCAPdroid:hover, .PCAPdroid-Mitm:hover {
+    text-decoration: underline;
+}
+@media (max-width: 400px) {
+.About {
+    margin: 2%;
+    width: 88%;
+}
+.Download {
+    width: 64%;
+    margin-right: 2%;
+}
 }
