@@ -1,0 +1,40 @@
+body {
+    background: white;
+    margin: 0;
+}
+.Top {
+    background: rgb(0 0 0 / 88%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 5px 0;
+}
+.Right {
+    display: flex;
+    align-items: center;
+    color: #00ff0070;
+    gap: 8px;
+    padding: 0 4% 0 0;
+}
+.Right img {
+    width: 35px;
+}
+.Left {
+    padding: 10px 0 0 4%;
+}
+.Left a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: #ff000090;
+    padding: 8px 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.Left a:hover {
+    text-decoration: underline;
+}
+.Left img {
+    width: 30px;
+}
