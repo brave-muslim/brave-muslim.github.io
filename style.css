@@ -49,10 +49,9 @@ body {
     width: 64%;
 }
 .Right2 img {
-    width: 93%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 530px;
     border-radius: 20px;
-    border: 12px solid #00ff0010;
 }
 .Feture, .Android {
     color: #00ff0070;
@@ -85,23 +84,94 @@ body {
 .Download img {
     width: 40px;
 }
-.PCAPdroid, .PCAPdroid-Mitm {
+.Download a {
     display: flex;
     align-items: center;
     color: white;
     text-decoration: none;
     gap: 6px;
 }
-.PCAPdroid:hover, .PCAPdroid-Mitm:hover {
+.Download a:hover {
+    text-decoration: underline;
+}
+.Code-URL {
+    background: rgb(0 0 0 / 40%);
+    width: 80%;
+    border-radius: 14px;
+    text-align: center;
+    padding: 20px 0;
+    margin-right: 8%;
+}
+.Next {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+.Code-URL img {
+    width: 21px;
+}
+.Code-URL a {
+    color: #00ff0070;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+}
+.Code-URL a:hover {
+    text-decoration: underline;
+}
+.Picture-Next {
+    margin-top: 14px;
+    display: flex;
+    padding: 0 10px;
+    gap: 5px;
+}
+.Picture-Next img {
+    width: 192px;
+    border-radius: 20px;
+}
+.Contact {
+    background: rgb(0 0 0 / 40%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.Contact p {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Contact img {
+    width: 20px;
+}
+.Contact a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Contact a:hover {
     text-decoration: underline;
 }
 @media (max-width: 400px) {
 .About {
-    margin: 2%;
+    margin: 8px;
     width: 88%;
 }
 .Download {
     width: 64%;
-    margin-right: 2%;
+    margin-right: 8px;
+}
+.Code-URL {
+    width: 96%;
+    margin: 8px;
+    font-size: 16px;
+}
+.Code-URL span, .Code-URL p {
+    font-size: 18px;
+}
+.Picture-Next img {
+    width: 49.4%;
 }
 }
