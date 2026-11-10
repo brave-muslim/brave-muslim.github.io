@@ -11,7 +11,7 @@ body {
 .Right {
     display: flex;
     align-items: center;
-    color: #00ff0070;
+    color: white;
     gap: 8px;
     padding: 0 4% 0 0;
 }
@@ -48,24 +48,23 @@ body {
     flex-wrap: wrap;
     width: 64%;
 }
-.Right2 img {
+.About img {
     width: 100%;
     max-width: 530px;
     border-radius: 20px;
 }
-.Feture, .Android {
-    color: #00ff0070;
+.About, .Android, .Code-URL, .Contact {
+    color: white;
     font-weight: 600;
     font-size: 30px;
 }
-.Feture2 {
-    color: white;
+.P {
     font-weight: 600;
     font-size: 20px;
     width: 94%;
     max-width: 425px;
     background: #252525;
-    border: 1px solid #293d20;
+    border: 1px solid #505050;
     border-radius: 8px;
     padding: 5px 10px;
 }
@@ -74,7 +73,8 @@ body {
 }
 .Download {
     background: rgb(0 0 0 / 40%);
-    width: 20%;
+    width: 64%;
+    max-width: 312px;
     margin: 20px 26%;
     display: flex;
     gap: 30px;
@@ -96,25 +96,19 @@ body {
 }
 .Code-URL {
     background: rgb(0 0 0 / 40%);
-    width: 80%;
+    width: 60%;
     border-radius: 14px;
     text-align: center;
     padding: 20px 0;
-    margin-right: 8%;
-}
-.Next {
-    color: white;
-    font-weight: 600;
-    font-size: 30px;
+    margin-right: 22%;
 }
 .Code-URL img {
-    width: 21px;
+    width: 4%;
+    max-width: 20px;
 }
 .Code-URL a {
-    color: #00ff0070;
+    color: white;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 30px;
 }
 .Code-URL a:hover {
     text-decoration: underline;
@@ -126,52 +120,53 @@ body {
     gap: 5px;
 }
 .Picture-Next img {
-    width: 192px;
+    width: 49.4%;
+    max-width: 192px;
     border-radius: 20px;
 }
 .Contact {
     background: rgb(0 0 0 / 40%);
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding-right: 20px;
+    justify-content: space-between;
     margin-top: 10px;
+    padding: 0 20px;
+    flex-wrap: wrap;
 }
-.Contact p {
-    color: white;
-    font-weight: 600;
-    font-size: 20px;
+.Right3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
-.Contact img {
+.Right3 img {
     width: 20px;
 }
-.Contact a {
+.Right3 a {
     color: white;
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
 }
-.Contact a:hover {
+.Right3 a:hover {
     text-decoration: underline;
+}
+.Left3 {
+    font-weight: 600;
+    font-size: 20px;
 }
 @media (max-width: 400px) {
 .About {
-    margin: 8px;
     width: 88%;
+    margin: 8px;
 }
 .Download {
-    width: 64%;
     margin-right: 8px;
 }
 .Code-URL {
     width: 96%;
     margin: 8px;
-    font-size: 16px;
 }
-.Code-URL span, .Code-URL p {
-    font-size: 18px;
-}
-.Picture-Next img {
-    width: 49.4%;
+.Code-URL span, p {
+    font-size: 25px;
 }
 }
